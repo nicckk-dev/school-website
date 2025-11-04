@@ -10,26 +10,6 @@ import { LaptopOutlined, BookOutlined, MedicineBoxOutlined, BgColorsOutlined } f
 const Dashboard = () => {
     const [form] = Form.useForm();
 
-    const data1 = [
-        {
-            icon: <FaMicroscope />,
-            title: "Explore",
-            detail: "Learning starts with sensory exploration of the evnironment, encouraging **naturaul curisoity** and self-discovery in every subject"
-        },
-        {
-            icon: <FaTools />,
-            title: "Experience",
-            detail: "Learning starts with sensory exploration of the evnironment, encouraging **naturaul curisoity** and self-discovery in every subject"
-        },
-        {
-            icon: <RiSpeakAiFill />,
-            title: "Express",
-            detail: "Learning starts with sensory exploration of the evnironment, encouraging **naturaul curisoity** and self-discovery in every subject"
-        }
-    ]
-
-
-
     return (
         <main>
             <div className='container py-3'>
