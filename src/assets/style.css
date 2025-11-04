@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #333;
+}
+
+.banner {
+    background-image: url("../assets/happy.webp");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.35);
+    z-index: 1;
+}
+
+.overlay * {
+    position: relative;
+    z-index: 2;
+}
+
+.card-border {
+    border-top: 4px solid #ffdf54;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+.card-border-blue {
+    border-top: 4px solid #1976d2;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+.comments {
+    border-top: 1px solid #E2E8F0;
+    background-color: #F8FAFC;
+    padding: 1rem;
+}
